@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ChordlePractice</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="home">
+    <%= render 'layouts/header' %>
+    <!--div id="background"></div-->
+
+    <div class="container" id="home">
+      <%= yield %>
+    </div>
+
+  </body>
+</html>
