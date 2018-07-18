@@ -73,68 +73,6 @@ nav .navbar-brand {
 }
 
 
-
-/********************************************
-** Home Page
-**/
-
-#background {
-    position: fixed;
-    top: 55%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: image-url('chorebot_03.svg') no-repeat center center;
-    background-size: 75%;
-}
-
-.tag-lines {
-    position: absolute;
-    top: 250px;
-    left: 1100px;
-    width: 500px;
-}
-
-.tag-line-1 {
-    display: block;
-    height: 150px;
-}
-
-.tag-line-2 {
-    display: block;
-    height: 125px;
-}
-
-.tag-line-button {
-    display: block;
-    margin-top: 25px;
-    background-color: $neon_green;
-}
-
-
 /********************************************
 ** Profile Page
 **/
-.jumbotron {
-    margin-top: 100px;
-    background-color: $neon_pink;
-    height: 500px;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-}
-
-.card-deck-wrapper {
-    margin-top: 125px;
-}
-
-.card-1 {
-    margin-top: 25px;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    height: 300px;
-}

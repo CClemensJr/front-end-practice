@@ -1,0 +1,53 @@
+$neon_blue: #0AB9E6;
+$dark_neon_blue: #05586d;
+$neon_red: #FF3C28;
+$neon_green: #1EDC00;
+$neon_yellow: #E6FF00;
+$chorebot_yellow: #fdd936;
+$neon_pink: #FF3278;
+$mario_red: #E10F00;
+$grey: #989898;
+$dark_grey: #414548;
+
+
+/********************************************
+** Home Page
+**/
+
+#background {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: image-url('chorebot_03.svg') no-repeat center center;
+    background-size: 75%;
+}
+
+.tag-lines {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+
+.tag-line-1 {
+    //display: flex;
+    height: 150px;
+    left: 55%;
+}
+
+.tag-line-2 {
+    //display: block;
+    height: 125px;
+}
+
+.tag-line-button {
+    //display: block;
+    //margin-top: 25px;
+    background-color: $neon_green;
+}

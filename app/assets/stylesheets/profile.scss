@@ -1,0 +1,29 @@
+$neon_blue: #0AB9E6;
+$dark_neon_blue: #05586d;
+$neon_red: #FF3C28;
+$neon_green: #1EDC00;
+$neon_yellow: #E6FF00;
+$chorebot_yellow: #fdd936;
+$neon_pink: #FF3278;
+$mario_red: #E10F00;
+$grey: #989898;
+$dark_grey: #414548;
+
+.jumbotron {
+    margin-top: 100px;
+    background-color: $neon_pink;
+    height: 500px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.card-deck-wrapper {
+    margin-top: 125px;
+}
+
+.card-1 {
+    margin-top: 25px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    height: 300px;
+}
