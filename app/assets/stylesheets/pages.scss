@@ -39,10 +39,10 @@ html, body, header, #background {
 ** Navbar
 **/
 
-nav {
-    //background-color: $neon_pink;
-    //opacity: 0.5;
-}
+/*nav {
+    background-color: $neon_pink;
+    opacity: 0.5;
+}*/
 
 nav a {
     color: $neon_blue;
@@ -93,32 +93,33 @@ nav .navbar-brand {
     background-size: 75%;
 }
 
-/*.layer {
-    background-color: $neon_blue;
-    opacity: 0.5;
+.tag-lines {
     position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-}*/
-
-.tag-line-1 {
-    position: absolute;
-    top: 350px;
+    top: 250px;
     left: 1100px;
     width: 500px;
+}
+
+.tag-line-1 {
+    display: block;
     height: 150px;
 }
 
 .tag-line-2 {
-    position: absolute;
-    top: 550px;
-    left: 1150px;
-    width: 500px;
+    display: block;
     height: 125px;
 }
 
+.tag-line-button {
+    display: block;
+    margin-top: 25px;
+    background-color: $neon_green;
+}
+
+
+/********************************************
+** Profile Page
+**/
 .jumbotron {
     margin-top: 100px;
     background-color: $neon_pink;
@@ -127,7 +128,13 @@ nav .navbar-brand {
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
+.card-deck-wrapper {
+    margin-top: 125px;
+}
+
 .card-1 {
+    margin-top: 25px;
     padding: 10px 10px 10px 10px;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    height: 300px;
 }
