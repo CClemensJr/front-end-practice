@@ -9,21 +9,51 @@ $mario_red: #E10F00;
 $grey: #989898;
 $dark_grey: #414548;
 
-.jumbotron {
-    margin-top: 100px;
-    background-color: $neon_pink;
-    height: 500px;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-}
-
 .card-deck-wrapper {
     margin-top: 125px;
 }
 
-.card-1 {
+.card-deck a {
+    text-decoration: none;
+}
+
+.card {
     margin-top: 25px;
-    padding: 10px 10px 10px 10px;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     height: 300px;
+    text-align: center;
+}
+
+.add-chore-card {
+    //border: thick $neon_blue;
+}
+
+.add-chore-card .card-header {
+    background-color: $neon_blue;
+    color: $neon_pink;
+    font-size: 2em;
+    font-weight: bold; 
+}
+
+.add-chore-card .card-body {
+    background-color: $neon_green;
+}
+
+.get-chore-card {
+    //background-color: $neon_red;    
+}
+
+.get-chore-card .card-header {
+    background-color: $neon_green;
+    color: $neon_pink;
+    font-size: 2em;
+    font-weight: bold;     
+}
+
+.get-chore-card .card-body {
+    background-color: $neon_blue;    
+}
+
+.unused-card {
+    background-color: #989898;
 }
